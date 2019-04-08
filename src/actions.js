@@ -21,7 +21,7 @@ function thumbUpComment(commentId) {
 
 function thumbDownComment(commentId) {
     return {
-        type: THUMB_UP_COMMENT,
+        type: THUMB_DOWN_COMMENT,
         id: commentId
     };
 }
